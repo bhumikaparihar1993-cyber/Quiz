@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+#modal-container {
+    /* The container for the dialog, acts as the boundary for the moving button */
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.modal-content p {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#yes-btn {
+    background-color: #4CAF50;
+    color: white;
+    margin-right: 20px;
+}
+
+#no-btn {
+    background-color: #f44336;
+    color: white;
+    position: absolute; /* Position the "No" button absolutely within its container */
+    transition: transform 0.1s ease-out; /* Smooth the movement */
+}
