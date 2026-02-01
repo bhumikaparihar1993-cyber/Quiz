@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evasive No Button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="modal-container">
+        <div class="modal-content">
+            <p>Do you want to proceed?</p>
+            <button id="yes-btn" onclick="alert('You chose YES! Good job.')">Yes</button>
+            <button id="no-btn">No</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
